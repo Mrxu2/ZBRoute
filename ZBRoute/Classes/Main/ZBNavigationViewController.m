@@ -1,6 +1,6 @@
 //
 //  ZBNavigationViewController.m
-//  XZBDemo
+//  ZBRoute
 //
 //  Created by xzb on 2017/10/25.
 //  Copyright © 2017年 xzb. All rights reserved.
@@ -41,8 +41,8 @@
         return NO;
     }
 
-    if ([self.topViewController respondsToSelector:@selector(hb_shouldPanback)]) {
-        return [(id<ZBNavigationPanbackDelegate>) self.topViewController hb_shouldPanback];
+    if ([self.topViewController respondsToSelector:@selector(zb_shouldPanback)]) {
+        return [(id<ZBNavigationPanbackDelegate>) self.topViewController zb_shouldPanback];
     }
 
     return YES;

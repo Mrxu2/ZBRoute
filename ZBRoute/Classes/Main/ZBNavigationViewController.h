@@ -1,6 +1,6 @@
 //
 //  ZBNavigationViewController.h
-//  XZBDemo
+//  ZBRoute
 //
 //  Created by xzb on 2017/10/25.
 //  Copyright © 2017年 xzb. All rights reserved.
@@ -10,7 +10,7 @@
 
 @protocol ZBNavigationPanbackDelegate
 
-- (BOOL)hb_shouldPanback;
+- (BOOL)zb_shouldPanback;
 
 @end
 

@@ -1,5 +1,11 @@
 # ZBRoute
+#Installation
 
+Use the orsome CocoaPods.
+
+In your Podfile
+
+>pod 'ZBRoute'
 
 ## ZBPageRouter使用
 

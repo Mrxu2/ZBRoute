@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   #名称
   s.name         = 'ZBRoute'
   #版本号-改变文件内容,需要升级版本号
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   #简介
   s.summary      = 'ZBRoute'
   #详细介绍

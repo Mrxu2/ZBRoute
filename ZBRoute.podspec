@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
 :tag => s.version.to_s }
   #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个dependency目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
   s.source_files  = 'ZBRoute/Classes/**/*.{h,m}'
-  s.prefix_header_contents = '#import "ZBRouteHeader.h"'
    # s.public_header_files = 'Pod/Classes/**/*.h'   #公开头文件地址
   s.exclude_files = 'Source/Exclude'
   #所需的framework

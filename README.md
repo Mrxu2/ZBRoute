@@ -39,6 +39,16 @@ In your Podfile
 A向B发送消息:
 @{@"key":@"value"}
 [[ZBNavigator instance] pushViewControllerByDict:@{@"target":@"TwoVc",@"key":@"value")} animated:YES];
+
+//接受参数,判断是否跳转
+- (BOOL)validateParams:(NSDictionary *)params{
+    NSLog(@"params:%@",params);
+    return YES;
+}
+//是否侧滑
+- (BOOL)hb_shouldPanback{
+    return YES;
+}
 ```
 
 逆向:
